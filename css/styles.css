@@ -10,6 +10,12 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 .hero {
@@ -22,7 +28,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
-    margin-top: 70px;
+    margin-bottom: 70px;
     /* margin: 0 115px 70px 115px; */
 }
 
