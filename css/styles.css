@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+.hero {
+    background-color: #1F2937;
+    padding-bottom: 150px;
+}
+
+.hero__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 70px;
+    /* margin: 0 115px 70px 115px; */
+}
+
+.hero__logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hero__left h1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 48px;
+}
+
+.hero__left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 7px;
+}
+
+.hero__left button {
+    padding: 8px 30px;
+    color: white;
+    background-color: #3882f6;
+    border: #3882f6;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+
+.hero__right {
+    background-color: grey;
+    padding: 150px;
+}
+
+.hero__right h4 {
+    color: white;
+}
+
